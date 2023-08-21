@@ -1,0 +1,15 @@
+.footer__title {
+    font-style: var(--size-xs);
+    font-weight: 500;
+    color: var(--clr-slate600);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    user-select: none;
+    margin-bottom: 1rem;
+}
+
+.footer__hr {
+    margin-bottom: 8px;
+    border-color: var(--clr-slate800);
+}
