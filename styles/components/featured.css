@@ -56,17 +56,17 @@
     color: var(--clr-slate600);
     text-transform: capitalize;
   }
+  
+  .featured__img-container {
+      margin-top: 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 1rem;
+    }
 
   .featured__img-wrapper {
-    position: relative;
-  }
-
-  .featured__img-container {
-    margin-top: 1rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 1rem;
-  }
+      position: relative;
+    }
 
   .featured__img-wrapper::after {
     content: '';
@@ -83,7 +83,6 @@
   .featured__img-wrapper:hover::after {
     background-color: rgba(79, 70, 229, 0.1) ;
   }
-
 
 
 
