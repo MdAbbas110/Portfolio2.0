@@ -26,14 +26,17 @@
           <li class="header__line"></li>
 
           <li>
-            <button class="header__sun">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
-              </svg>
-            </button>
+            <a href="https://www.linkedin.com/in/mohammad-abbas110/" target="_blank" class="header__sun">
+              <img src="./public/linkedin.svg" alt="linkedin">
+            </a>
           </li>
           <li>
-            <a class="header__resume btn" href="#">Resume</a>
+            <a class="header__sun" href="https://github.com/MdAbbas110" target="_blank">
+              <img src="./public/icons8-github.svg" alt="icon">
+            </a>
+          </li>
+          <li>
+            <a class="header__resume btn" href="./public/AbbasOverleaf.pdf" download="abbas-resume">Resume</a>
           </li>
         </ul>
         <button class="header__bars">
@@ -69,21 +72,9 @@
         <li class="mobile-nav__link-line"></li>
 
         <li>
-          <button class="mobile-nav__sun">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
-              />
-            </svg>
-          </button>
+          <a href="https://www.linkedin.com/in/mohammad-abbas110/" target="_blank" class="header__sun">
+            <img src="./public/linkedin.svg" alt="linkedin">
+          </a>
         </li>
 
         <li>
@@ -115,9 +106,9 @@
         <div class="about__content">
           <h2 class="about__title">About</h2>
           <p class="about__description">
-            Hello there! I'm Ramzi, a
-            <strong>Frontend / Fullstack-Jamstack</strong> web developer based
-            near Montreal. I wake up in the morning, grab a cup of timmies
+            Hello there! I'm Abbas, a
+            <strong>Frontend / Fullstack-JamStack</strong> web developer based
+            near Montreal. I wake up in the morning, grab a cup of tammies
             coffee, open up my laptop and build things that live on the web all
             day, everyday.
           </p>
@@ -148,8 +139,9 @@
 
         <div class="about__img-wrapper">
           <img
-            class="about__img"
-            src="./public/DSC_2566-removebg-preview.png"
+            class="about__img lazy loading"
+            src="https://fakeimg.pl/410x610"
+            data-src="./public/DSC_2566-removebg-preview.png"
             alt="My Picture "
             width="358px"
             height="380px"
@@ -216,16 +208,16 @@
 
         <div class="featured__img-container">
           <div class="featured__img-wrapper">
-            <img src="/game-dark.png" alt="Game dark" />
+            <img class="lazy loading" src="https://fakeimg.pl/1890x890" data-src="/game-dark.png" alt="Game dark" />
           </div>
           <div class="featured__img-wrapper">
-            <img src="/game-light.png" alt="image light" />
+            <img class="lazy loading" src="https://fakeimg.pl/1890x890"  data-src="/game-light.png" alt="image light" />
           </div>
           <div class="featured__img-wrapper">
-            <img src="/movie.png" alt="movie project" />
+            <img class="lazy loading" src="https://fakeimg.pl/1890x890" data-src="/movie.png" alt="movie project" />
           </div>
           <div class="featured__img-wrapper">
-            <img src="/info.png" alt="movie project" />
+            <img class="lazy loading" src="https://fakeimg.pl/1890x890" data-src="/info.png" alt="movie project" />
           </div>
           <div class="featured__wrapper">
           <h2 class="featured__title">Flixx Movie App</h2>
@@ -266,7 +258,7 @@
         <!-- project 1  -->
         <h3 class="work__project-title">Calories Tracker</h3>
         <div class="work__img-wrapper work__image1">
-          <img src="/calories.png" alt="calories tracker" />
+          <img class="lazy loading" src="https://fakeimg.pl/1650x1550" data-src="/calories.png" alt="calories tracker" />
         </div>
 
         <div class="work__project work__content1">
@@ -287,7 +279,7 @@
         <!-- project 2  -->
         <h3 class="work__project-title">Bank Application</h3>
         <div class="work__img-wrapper work__image2">
-          <img src="/bank.png" alt="bank website in react" height="370px" />
+          <img class="lazy loading" src="https://fakeimg.pl/1650x1550" data-src="/bank.png" alt="bank website in react" height="370px" />
         </div>
 
         <div class="work__project work__content2">
@@ -308,7 +300,7 @@
         <!-- project 3  -->
         <h3 class="work__project-title">SushiMan Website</h3>
         <div class="work__img-wrapper work__image3">
-          <img src="/sushiman.png" alt="Sushi man website" />
+          <img class="lazy loading" src="https://fakeimg.pl/1650x1550" data-src="/sushiman.png" alt="Sushi man website" />
         </div>
 
         <div class="work__project work__content3">
@@ -330,7 +322,7 @@
         <!-- project 4  -->
         <h3 class="work__project-title">A Todo App</h3>
         <div class="work__img-wrapper work__image4">
-          <img src="/public/todo-list-by-md.netlify.app_.png" alt="A todo app" />
+          <img class="lazy loading" src="https://fakeimg.pl/1650x1550" data-src="/public/todo-list-by-md.netlify.app_.png" alt="A todo app" />
         </div>
 
         <div class="work__project work__content4">
@@ -351,7 +343,7 @@
         <!-- project 5  -->
         <h3 class="work__project-title">Pokemon Go</h3>
         <div class="work__img-wrapper work__image5">
-          <img src="./public/pokemon-go-cards.netlify.app_.png" alt="Pokemon api website" />
+          <img class="lazy loading" src="https://fakeimg.pl/1650x1550" data-src="./public/pokemon-go-cards.netlify.app_.png" alt="Pokemon api website" />
         </div>
 
         <div class="work__project work__content5">
@@ -372,7 +364,7 @@
         <!-- project 6  -->
         <h3 class="work__project-title">Beat Maker</h3>
         <div class="work__img-wrapper work__image6">
-          <img src="./public/beat-maker-sound.netlify.app_.png" alt="Play music beat maker" />
+          <img class="lazy loading" src="https://fakeimg.pl/1650x1550" data-src="./public/beat-maker-sound.netlify.app_.png" alt="Play music beat maker" />
         </div>
 
         <div class="work__project work__content6">
