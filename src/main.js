@@ -12,5 +12,7 @@ import '../styles/utils.css'
 
 import '../src/mobile-nav'
 import mobileNav from '../src/mobile-nav';
-
+import './lazy'
+import lazyLoading from './lazy';
 mobileNav();
+lazyLoading();

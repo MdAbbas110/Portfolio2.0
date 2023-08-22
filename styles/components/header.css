@@ -33,7 +33,7 @@
         align-items: center;
         list-style: none;
         padding: 0;
-        gap: 2em;
+        gap: 1.5em;
     }
     
     .header__link {
@@ -55,8 +55,6 @@
     }
     
     .header__sun {
-        display: block;
-        color: var(--clr-slate600);
         width: var(--size-base) ;
         height: var(--size-base) ;
     }
@@ -86,7 +84,11 @@
 }
 
 /* xl  */
-/* @media (min-width: 1280px) {} */
+@media (min-width: 1280px) {
+    .header__menu {
+        gap: 2em;
+    }
+}
 
 /* 2xl  */
 /* @media (min-width: 1536px) {} */
